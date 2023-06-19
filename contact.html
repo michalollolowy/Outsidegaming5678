@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8"/>
+		<title>[PL] Octavic Roleplay</title>
+		<link rel="shortcut icon" type="x-icon" href="logo omegazone miastko.png">
+		<meta name="description" content="SERWER DARK RP" />
+		<meta name ="keywords" content="Dark RP, najlepszy serwer rp, gmod, garry'smod" />
+		<meta http-equip="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		<link rel="stylesheet" href="style_contact.css" type="text/css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+
+		<link rel="shortcut icon" type="x-icon" href="png/OUTSIDE GAMING logo.png">
+
+	</head>
+ 
+	<body>
+		
+		<div class="wrapper">
+			<div class="header">
+				<div class="logo">
+					
+				<img src="png/OUTSIDE GAMING - logo (1).png" height="150px" width="150px" style="margin:0 auto;
+				display:block; margin-bottom: -25px; ">
+				OutsideGaming.pl
+					<div style="clear: both;"></div>
+				</div>
+
+				<div class="nav">
+
+					<ol>
+						<li><a href="index.html">Strona Główna</a></li>
+						<li><a href="#">Regulamin Serwera</a>
+						<ul>
+							<li><a href="rules_rp.html">Dark RP</a></li>
+							<li><a href="rules_dc.html">Discord</a></li>
+						</ul></li>
+						<li><a href="https://outsidegaming.tip4serv.com/" target="_blank">Sklep Serwera</a></li>
+						<li><a href="https://discord.gg/SmJG6JycEe" target="_blank">Serwer Discord</a></li>
+					</ol>
+
+				</div>	
+
+				<div class="content">
+					
+					<form action="https://formsubmit.io/send/OutsideGaming.DarkRp@gmail.com" method="POST">
+						
+						<label for="mail">Twój e-mail</label></br></br>
+						<input id="mail" name="mail" type="mail" placeholder="Wpisz swój adres e-mail!">
+			
+						<label for="msg">Twoja wiadomość</label></br></br>
+						<textarea id="msg" name="msg" type="msg" rows="5" placeholder="Wpisz wiadomość!"></textarea>
+			
+						<input name="_redirect" type="hidden" id="name" value="thanks.html">
+			
+						<input name="_formsubmit_id" type="text" style="display:none">
+			
+						<input value="Wyślij" type="submit">
+					  </form>
+				</div>
+
+				<div class="socials">
+					<div class="socialdivs">
+						<a href="https://discord.gg/SmJG6JycEe" target="_blank" ><div class="dc"><img src="png/discord.png" width="40px" height="40px" style="margin-top: 20px;"></div></a>
+						<a href="https://youtube.com" target="_blank"><div class="yt"><i class="icon-youtube-play"></i></div></a>
+						<a href="https://www.tiktok.com/" target="_blank"><div class="tk"><img src="png/Tiktok1.png" width="40px" height="40px" style="margin-top: 20px;"></div></a>
+						<div style="clear: both;"></div>
+					</div>
+				</div>
+
+				<div class="footer">
+					Outside Gaming &copy; 2023  Dziękujemy za odwiedzenie naszej strony. Zapraszamy na serwer Dark RP!
+					<div class="author">Autor: Tabaluga/michalollolowy</div> 
+				</div>
+			</div>
+		</div>
+		
+		<script src="jquery-3.7.0.min.js"></script>
+
+		<script>
+
+		$(document).ready(function() {
+		var stickyNavTop = $('.nav').offset().top;
+
+		var stickyNav = function(){
+		var scrollTop = $(window).scrollTop();
+
+		if (scrollTop > stickyNavTop) {
+		$('.nav').addClass('sticky');
+		} else {
+		$('.nav').removeClass('sticky');
+		}
+		};
+
+		stickyNav();
+
+		$(window).scroll(function() {
+		stickyNav();
+		});
+		});
+
+		</script>
+
+	</body>
+
+</html>
